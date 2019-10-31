@@ -1,0 +1,82 @@
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Aplicaciones D/Documents/NetBeansProjects/PracticaSistemaDistribuido/.git/
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   sistemaDistribuido/pom.xml
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/entidades/Producto.java
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/principal/main.java
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/session/ProductoJpaController.java
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/IllegalOrphanException.java
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/NonexistentEntityException.java
+        new file:   sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/PreexistingEntityException.java
+        new file:   sistemaDistribuido/src/main/resources/META-INF/persistence.xml
+        new file:   sistemaDistribuido/target/classes/.netbeans_automatic_build
+        new file:   sistemaDistribuido/target/classes/META-INF/persistence.xml
+        new file:   sistemaDistribuido/target/classes/com/mycompany/entidades/Producto.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/entidades/Producto_.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/principal/main.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/session/ProductoJpaController.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/session/exceptions/IllegalOrphanException.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/session/exceptions/NonexistentEntityException.class
+        new file:   sistemaDistribuido/target/classes/com/mycompany/session/exceptions/PreexistingEntityException.class
+        new file:   sistemaDistribuido/target/maven-archiver/pom.properties
+        new file:   sistemaDistribuido/target/sistemaDistribuido-1.0-SNAPSHOT.jar
+        new file:   sistemaDistribuido/target/test-classes/.netbeans_automatic_build
+
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git add .
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git commit -m "ok"
+[master dc07292] ok
+ 20 files changed, 393 insertions(+)
+ create mode 100644 sistemaDistribuido/pom.xml
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/entidades/Producto.java
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/principal/main.java
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/session/ProductoJpaController.java
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/IllegalOrphanException.java
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/NonexistentEntityException.java
+ create mode 100644 sistemaDistribuido/src/main/java/com/mycompany/session/exceptions/PreexistingEntityException.java
+ create mode 100644 sistemaDistribuido/src/main/resources/META-INF/persistence.xml
+ create mode 100644 sistemaDistribuido/target/classes/.netbeans_automatic_build
+ create mode 100644 sistemaDistribuido/target/classes/META-INF/persistence.xml
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/entidades/Producto.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/entidades/Producto_.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/principal/main.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/session/ProductoJpaController.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/session/exceptions/IllegalOrphanException.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/session/exceptions/NonexistentEntityException.class
+ create mode 100644 sistemaDistribuido/target/classes/com/mycompany/session/exceptions/PreexistingEntityException.class
+ create mode 100644 sistemaDistribuido/target/maven-archiver/pom.properties
+ create mode 100644 sistemaDistribuido/target/sistemaDistribuido-1.0-SNAPSHOT.jar
+ create mode 100644 sistemaDistribuido/target/test-classes/.netbeans_automatic_build
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$ git push origin master
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (42/42), 12.70 KiB | 1.06 MiB/s, done.
+Total 42 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/andresgeo96/PracticaSistemaDistribuido.git
+   5daf9bb..dc07292  master -> master
+
+Aplicaciones D@1-21-01-MD-14 MINGW64 ~/Documents/NetBeansProjects/PracticaSistemaDistribuido (master)
+$
